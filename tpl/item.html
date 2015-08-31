@@ -1,4 +1,10 @@
-<div class="item">
-    <h2>{{title}}</h2>
-    <iframe class="video w100" width="640" height="360" src="//www.youtube.com/embed/{{videoid}}" frameborder="0" allowfullscreen></iframe>
+<div class="item col-md-4">
+	<h5 class="text-center title">{{title}}</h5>
+    <div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{videoid}}" allowfullscreen></iframe>
+	</div>
+	<div class="views text-center">&nbsp;<span class="glyphicon glyphicon-eye-open"> </span> &nbsp; {{views}} &nbsp; <span class="glyphicon glyphicon-eye-open"> </span>&nbsp;</div>
+	<div class="likes text-center">&nbsp; {{likes}} &nbsp; <span class="glyphicon glyphicon-thumbs-up"> </span>&nbsp;</div>
+	<div class="dislikes text-center">&nbsp; {{dislikes}} &nbsp; <span class="glyphicon glyphicon-thumbs-down"> </span>&nbsp;</div>
+	<div class="publishedAt text-center">&nbsp; {{publishedAt}} &nbsp;</div>
 </div>

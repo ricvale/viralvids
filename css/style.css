@@ -1,11 +1,24 @@
-body { background: #f5c9c5; }
-header { margin-top: 30px; }
-header a { color: black; text-decoration: none; }
-header a:hover { text-decoration: none; }
+body { background: #353526; color:gainsboro; }
+header { margin-top: 35px; }
+header a { font-size: 1.22em; color: gainsboro; text-decoration: none; text-shadow: rgba(127, 127, 127, 0.7) 0 9px 6px; font-family:Impact, "Arial Black", sans-serif;  }
+header a:hover { color:#E12A26; text-decoration: none; text-shadow: rgba(127, 0, 0, 0.7) 0 9px 6px; font-family:Impact, "Arial Black", sans-serif; }
 form { margin-top: 20px; }
-form, #results { padding: 0 20px; }
+form, #results { padding: 0 0px; }
 .item { margin-bottom: 25px; }
-.w100 { width: 100%; }
+.title{ min-height:32px; color:#E12A26; font-size:15px; font-weight:100; }
+.views{ color:black; padding-top:15px; }
+.likes{ color:green; padding-top:5px; }
+.dislikes{ color:#FF7373; padding-top:5px;}
+.publishedAt{ color:#1E1611; padding-top:5px; padding-bottom:20px;}
 
-.btn-primary { background: #952b2b; border-color: #957575; }
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus { background: #782b2b;  border-color: #952b2b; }
+#searchbox{ margin-left:0; background-color:red; }
+.subm { margin-top:25px; } 
+
+.btn-primary { background: #000000; border-color: #666666; }
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus { background: #AAAAAA;  border-color: #666666; color:#000; font-weight:600; }
+
+.datepicker {
+background-color: #353526 ;
+color: #DFDFD0;
+}
+.input-group-addon{ background-color:#353526; color:gainsboro; }
