@@ -102,7 +102,7 @@ function afterExecuteAll(results, viewsArr){
 
 
 function init() {
-    gapi.client.setApiKey("AIzaSyDXiz0Xy_fVe3dGkDBtKxF5ryj98hogNfQ");
+    gapi.client.setApiKey("PUT_YOUR___GOOGLE_API_KEY_FOR_BROWSER___HERE__after_enabling_youtube_APIs___in_https://console.developers.google.com____and_set_yourdomain_or_localhost_there");
     gapi.client.load("youtube", "v3", function() {
         // yt api is ready
     });
