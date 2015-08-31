@@ -1,2 +1,12 @@
-# viralvideos
-See https://www.youtube.com/watch?v=-vH2eZAM30s for video tutorial on how to use the Youtube Data API V3
+# viralvids
+### Search for the 3 most viewed videos, with a start date of pusblished.
+## Simple SPA for testing the youtube API 
+## (UI is the Twitter Bootstrap)
+
+#### Update provides:
+
+* Enable the search with a start date in UI
+* number of views
+* number of likes
+* number of dislikes
+* date published
