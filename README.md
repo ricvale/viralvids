@@ -1,7 +1,7 @@
 # viralvids
 ### Search for the 3 most viewed videos, with a start date of pusblished.
 ## Simple SPA for testing the youtube API 
-## (UI is the Twitter Bootstrap)
+## (UI uses the Twitter Bootstrap)
 
 #### Update provides:
 
